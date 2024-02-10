@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #faebd7;
+}
+header {
+  background-image: url(../imgs/header.jpg);
+  background-size: cover;
+  width: auto;
+  max-height: 300px;
+}
+header .title {
+  margin: 0px;
+  text-align: center;
+  font-size: 200px;
+  color: #faebd7;
+}
+.gallery-father {
+  text-align: center;
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.gallery-father .gallery-item {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.gallery-father .gallery-item .book-img {
+  width: 400px;
+  height: auto;
+}
+
+.gallery-father .gallery-item .book-text {
+  width: 400px;
+  height: auto;
+  padding: 100px 50px;
+}
+.piedepagina {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #6e6e6e;
+  background-color: #b4b4b4;
+}
